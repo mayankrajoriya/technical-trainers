@@ -1,0 +1,172 @@
+.about{
+    padding: 0 190px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.about h1 {
+    font-size: 1.5625rem;
+    position: relative;
+    padding: 0 0 0 1.25rem;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 0.0625rem;
+    font-weight: 800;
+    color: #333333;
+    border-left: 15px solid #002db3;
+    margin-bottom: 40px;
+  }
+
+
+
+  .course-content{
+    justify-content: space-between;
+    padding: 0px 190px;
+    margin-top: 40px;
+  }
+  .line {
+    width: 0.1875rem;
+    height: 19rem;
+    background: #dfe7ff;
+    margin-right: 20px;
+    margin-left: 30px;
+  }
+  
+  .circle {
+    width: 50px;
+    height: 50px;
+    background: #dfe7ff;
+    border-radius: 50px;
+    padding: 5px ;
+  }
+  .c1 {
+    position: relative;
+    top: -25px;
+    left: -23px;
+  }
+  .c2{
+      position: relative;
+      top: 70px;
+      left: -23px;
+  }
+  .c3{
+      position: relative;
+      top: 180px;
+      left: -23px;
+  }
+  .logo-div{
+     width: 40px;
+     height: 40px;
+     background: #002db3;
+     border-radius: 50px;
+     padding: 5px 7px;
+     color: white;
+     
+  }
+  
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .course-text{
+    width: 100%;
+  }
+  .course-text h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+    margin: 0 0 0.625rem 0;
+  }
+  
+  .course-text p {
+    font-size: 1rem;
+    color: #848484;
+    line-height: 1.5rem;
+    
+    margin: 0 0 0.625rem 0;
+    font-weight: 400;
+  }
+  .course-list{
+    margin-top: 70px;
+    
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+  }
+  
+  
+  
+  
+  @media (max-width:480px) {
+
+    .about{
+      margin-top: 50px;
+      padding: 0 15px;
+      margin-bottom: 0px;
+  }
+  .about p{
+      padding-left: 15px;
+  }
+   
+    .course{
+      padding: 0 15px;
+    }
+    .course-content{
+      flex-direction: column;
+      padding: 0 15px;
+    }
+
+  
+    ul{
+      gap: 24px;
+    }
+    .course h1{
+      margin-bottom: 10px;
+    }
+    .course-text h2{
+      width: 300px;
+    }
+    .course-text p{
+      width: 280px;
+      font-size: small;
+    }
+    .course-img{
+      margin-bottom: 50px;
+    }
+  }
+  
+  
+  
+  
+  
+  @media (min-width:480px) and (max-width:1280px) { 
+
+    
+    .about{
+      padding: 0 50px;
+  }
+  
+  
+    .course{
+      padding: 0 50px;
+    }
+  
+   
+    ul{
+      gap: 28px;
+    }
+    .course h1{
+      margin-bottom: 10px;
+    }
+    .course-text h2{
+      width: 300px;
+    }
+    .course-text p{
+      width: 280px;
+      font-size: small;
+    }
+
+
+  }
+  

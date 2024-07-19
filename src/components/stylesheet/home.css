@@ -1,0 +1,98 @@
+.home{
+    background: linear-gradient(to right, #002db3, #0033CC);
+    
+}
+
+.home-component{
+    padding:160px 190px;
+}
+.home h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 3.75rem;
+    letter-spacing: 0.0625rem;
+    text-transform: uppercase;
+    margin: 0 0 1.25rem;
+    width: 500px;
+   
+}
+.home p{
+    width: 500px;
+}
+
+
+.register{
+    width: 50%;
+    text-align: center;
+    font-size: large;
+    font-weight: 700;
+    background: yellow;
+    color: black;
+    background-size: 600% 600%;
+    animation: gradient 10s ease infinite;
+    animation-name: card-box;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.315);
+}
+
+.register:hover{
+    color:red;
+}
+
+
+@keyframes card-box {
+    0%{
+      background-position: 0 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0 50%;
+    }
+}
+
+
+@media (max-width:480px) {
+
+    .home{
+        height: 100%;
+    }
+
+    .home-component{
+        flex-direction: column;
+        margin: 0;
+        padding: 40px 15px;
+    }
+    .home h2{
+        font-size:2.5rem;
+        font-weight: 800;
+        line-height: 3.75rem;
+        letter-spacing: 0.0625rem;
+        text-transform: uppercase;
+        margin: 0 0 1.25rem;
+        width: 350px;
+       
+    }
+    .register-div{
+        display: flex;
+        justify-content: center;
+    }
+    .home p{
+        width: 350px;
+    }
+    .hero-img{
+        padding-top: 20px;
+        width: 350px;
+    }
+    
+}
+
+@media (min-width:480px) and (max-width:1280px) {
+
+    .home-component{
+        padding: 160px 50px;
+        width: 100%;
+    }
+}
+

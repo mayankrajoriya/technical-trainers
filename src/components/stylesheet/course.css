@@ -1,0 +1,50 @@
+.course {
+  padding: 0 190px;
+  margin-top: 40px;
+}
+
+.course h1 {
+  font-size: 1.5625rem;
+  position: relative;
+  padding: 0 0 0 1.25rem;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 0.0625rem;
+  font-weight: 800;
+  color: #333333;
+  border-left: 15px solid #002db3;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.cards{
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+
+
+
+@media (max-width:480px) {
+  
+  .course{
+    padding: 0 15px;
+  }
+  .cards{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+
+@media (min-width:480px) and (max-width:1440px){
+  .course{
+    padding: 0 50px;
+  }
+  .cards{
+    gap: 30px;
+  }
+}
